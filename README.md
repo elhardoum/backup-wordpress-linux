@@ -26,7 +26,15 @@ You'll get more information on the screen.
 
 You might as well run the backup repeatedly with a simple cron job, just make sure you run `backup-wordpress-linux/bwpl.sh PATH_TO_ROOT email@host.tld` in the task.
 
-You can copy `backup-wordpress-linux/bwpl.sh` to one of these folders:
+You can make a custom shell file where you have the command, e.g:
+
+```bash
+#!/bin/bash
+
+# process backup
+backup-wordpress-linux/bwpl.sh PATH_TO_ROOT email@host.tld
+```
+and copy/move it to one of these folders:
 
 - `/etc/cron.hourly` to run each hour
 - `/etc/cron.daily` to run daily
