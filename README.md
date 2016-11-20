@@ -5,4 +5,7 @@ This shell script allows you to backup your WordPress installation on Linux in s
 
 <h3>Usage:</h3>
 
-- `cd` into `opt` 
+- `cd` into `/opt` dir ( `cd /opt` ) or any directory where you keep your custom files 
+- Download this script to your server: `git clone https://github.com/elhardoum/backup-wordpress-linux.git`
+- Set required permissions for the shell file: `chmod +x ./bwpl.sh`
+- You're done!
