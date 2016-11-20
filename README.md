@@ -42,3 +42,9 @@ and copy/move it to one of these folders:
 - `/etc/cron.daily` to run daily
 - `/etc/cron.weekly` to once a week
 - `/etc/cron.monthly` to run once a month
+
+## How do I install a backup?
+
+Normally when you receive a backup through email, you'll receive 2 compressed files, one for the database SQL file and the other for the root files.
+
+Just download those 2 attachements to your local environment ... _writing in progress ;).._
