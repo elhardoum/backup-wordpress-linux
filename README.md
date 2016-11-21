@@ -16,13 +16,17 @@ Basically run the shell script `bwpl.sh` in the terminal followed by the path to
 
 - `backup-wordpress-linux/bwpl.sh PATH_TO_ROOT email@host.tld`
 
+You'll get more information on the screen.
+
 Here's an example; assuming we have cloned the script to `/opt` directory:
 
 - `/opt/backup-wordpress-linux/bwpl.sh /srv/users/serverpilot/apps/tests/public/ spam@samelh.com`
 
 _In the example, I have a WordPress test install on Digital Ocean droplet managed by serverpilot, so the root of tests app is within `/srv/users/serverpilot/apps/APP_NAME/public/`_
 
-You'll get more information on the screen.
+Here's what I got in my mailbox:
+
+<img src="http://i.imgur.com/u7nV0h9.png" alt="preview" />
 
 ## Cron Jobs
 
